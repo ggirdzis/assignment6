@@ -1,0 +1,171 @@
+a:link, a:visited { 
+    text-decoration: none; 
+    color: #116d7a;
+}
+ 
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #66b5ba;
+}
+     
+/****************************************/
+/********  BEGIN PAGE STRUCTURE  ********/
+/****************************************/
+body {
+    padding: 0 0 0 0; 
+    margin: auto;
+    background: #0f5761 url(http://iaa.bsdvt.org/images/organizations/cms/burlington/arts/images/backgroundTile.png) repeat-x 0 0;
+}
+ 
+/****************************************/
+/******  BEGIN SIDE COLUMN CONTENT ******/
+/****************************************/
+ 
+.orgColor{
+    background-color: #116d7a;
+}
+ 
+#personal li li a {
+    color: #424242;
+    background-color: transparent;
+}
+ 
+#personal .spaced a {
+    color: #fff;
+}
+ 
+#personal .spaced a:hover {
+    color: #fff;
+}
+ 
+.wel li a {
+    color: #fff;
+}
+ 
+.wel li a:hover {
+    color: #fff;
+}
+/**************************************/
+/******  END SIDE COLUMN CONTENT ******/
+/**************************************/
+ 
+ 
+/***********************/
+/***** BEGIN TOPNAV ****/
+/***********************/
+ 
+#nav a {
+    color: #ecc70e;
+}
+ 
+#nav a:hover, #nav .sfhovera {
+    color: #116d7a;
+}
+ 
+#nav a:hover, #nav li:hover>a {
+    color: #116d7a;
+}
+ 
+#nav li li {
+    background-color: #fbf9be;
+}
+ 
+#nav li li a{
+    color: #116d7a;
+}
+ 
+#nav li li a:hover, #nav li li .sfhovera {
+    color: #116d7a;
+}
+ 
+#nav li li a:hover, #nav li li:hover>a {
+    color: #116d7a;
+}
+/***********************/
+/****** END TOPNAV *****/
+/***********************/
+ 
+/***********************/
+/**** BEGIN SIDENAV  ***/
+/***********************/
+ 
+#adxmSideNav a {
+    color: #fff;
+}
+ 
+/*   makes hover color/background work correctly in ie6  ***MUST BE IN MAIN CSS NOT IE6 SPECIFIC***   */
+#adxmSideNav a:hover /* hover state */, #adxmSideNav .adxmhoverA /* active state */{        /* li:hover>a selector */
+    color: #fff;
+    background: transparent url("http://iaa.bsdvt.org/images/organizations/cms/burlington/arts/images/sideNavHover.png") no-repeat 0 0px;
+}
+/*   end ie6 fix   */
+ 
+#adxmSideNav a:hover, #adxmSideNav li:hover>a {
+    color: #116d7a;
+}
+ 
+     
+#adxmSideNav li li {
+    background-color:#fff;
+}
+ 
+#adxmSideNav li li {
+    color: #116d7a;
+}
+ 
+#adxmSideNav li li a {
+    background-color: #fbf9be !important;
+    color:#116d7a !important;   
+}
+ 
+#adxmSideNav li li a:hover /* hover state */, #adxmSideNav li li .adxmhoverA {
+    color:#116d7a;
+}
+ 
+#adxmSideNav li li a:hover, #adxmSideNav li li:hover>a {
+    color:#116d7a;
+}
+ 
+/***********************/
+/***** END SIDENAV *****/
+/***********************/
+ 
+/***********************/
+/** BEGIN QUICKLINKS ***/
+/***********************/
+#quickLinks {
+    color: #fff;
+}
+ 
+#quickLinks a {
+    color: #fff;
+}
+/***********************/
+/*** END QUICKLINKS ****/
+/***********************/
+ 
+ 
+/**************************************/
+/**********  END NAVIGATION  **********/
+/**************************************/
+ 
+.ww_city {
+    color:#fff;
+}
+ 
+.ww_condition {
+    color:#fff;
+}
+ 
+.ww_temp {
+    color:#fff;
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 16, 2015, 10:30:59 PM
+    Author     : Gretchen
+*/
+

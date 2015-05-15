@@ -1,0 +1,773 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body, td {
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+table {
+    font-size: inherit;
+}
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+}
+#schoolAnnouncements > div {
+    background: none repeat scroll 0 0 aliceblue;
+}
+#announcementsWrap {
+    background: none repeat scroll 0 0 aliceblue;
+    padding: 2em;
+}
+#distLinks {
+    border-color: -moz-use-text-color -moz-use-text-color black;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    color: #ecc70e;
+    float: right;
+    margin-right: 7em;
+    margin-top: 2em;
+    padding: 3px 106px 5px;
+    position: absolute;
+    right: 0;
+}
+#schoolLinks {
+    border-color: -moz-use-text-color -moz-use-text-color black;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    color: white;
+    margin-left: 1em;
+    margin-top: -2em;
+    padding: 3px 19px 11px;
+    position: absolute;
+}
+.announcementTitle {
+    font-size: 2em;
+}
+h1 {
+    size: 1.5em;
+}
+#districtAnnouncements > div.announceAlt0 > div.announcement > div.announcementBody > div:nth-child(1) > span {
+    text-align: center;
+}
+a:link, a:visited {
+    color: #223a68;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #5b84ca;
+    text-decoration: underline;
+}
+body {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/backgroundTile.png") repeat-x scroll 0 0 #223a68;
+    margin: auto;
+    padding: 0;
+}
+#wrap {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/bodyTile.png") repeat-y scroll 0 0 transparent;
+    margin: auto;
+    width: 974px;
+}
+#outerWrapBottom {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/outerWrapBottom.png") no-repeat scroll center bottom transparent;
+    margin: auto;
+}
+#outerWrapTop {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/outerWrapTop.png") no-repeat scroll center top transparent;
+    margin: auto;
+}
+#header {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/header.png") no-repeat scroll 0 0 transparent;
+    height: 91px;
+    position: relative;
+    width: 974px;
+}
+#header2 {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/header2.png") no-repeat scroll 0 0 transparent;
+    height: 185px;
+    position: relative;
+    width: 974px;
+}
+#navBar {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/navBar.png") no-repeat scroll 0 0 transparent;
+    clear: both;
+    height: 40px;
+    position: relative;
+    z-index: 99;
+}
+#sideColumn {
+    background: none repeat scroll 0 0 transparent;
+    clear: left;
+    display: inline;
+    float: left;
+    height: 100%;
+    margin-left: 0;
+    margin-top: 2px;
+    padding: 0;
+    width: 201px;
+}
+#bodyWrap {
+    background-color: transparent;
+    height: auto;
+    margin: 6em 0 0 220px;
+}
+#mainBody {
+    background-color: transparent;
+    clear: none;
+    margin-top: 10px;
+    min-height: 300px;
+    overflow: visible;
+    width: 716px;
+}
+#foot {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/footer.png") no-repeat scroll 0 0 transparent;
+    clear: both;
+    height: 311px;
+    margin: auto;
+}
+#slideshow {
+    float: right;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+#rotatorPng {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/rotator.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 185px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 490px;
+    z-index: 1;
+}
+#slideshow img {
+    height: 185px;
+    width: 490px;
+}
+#logoImage {
+    float: left;
+    left: 20px;
+    position: relative;
+    top: 70px;
+}
+#rssFeed {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+#printBtn a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/print.png") no-repeat scroll 7px -4px transparent;
+    color: #fff;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    height: 24px;
+    margin: 13px 0 10px 11px;
+    padding: 0;
+    position: relative;
+    width: 130px;
+}
+#printBtn a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#personal {
+    clear: both;
+    color: #fff;
+    display: inline;
+    float: left;
+    font-weight: bold;
+    margin: 15px 0 0 28px;
+    width: 175px;
+}
+#personal li a {
+    background-color: transparent;
+}
+#personal li li a {
+    background-color: transparent;
+    color: #424242;
+}
+#personal .spaced a {
+    color: #fff;
+}
+#personal .spaced a:hover {
+    color: #fff;
+}
+.wel li a {
+    color: #fff;
+}
+.wel li a:hover {
+    color: #fff;
+}
+#powered .spaced span {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+#powered {
+    background: none repeat scroll 0 0 transparent;
+    height: 50px;
+    position: relative;
+    top: 253px;
+}
+#powered .text_small span {
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+}
+#languagemenu {
+    display: none;
+}
+#languagetoggle {
+    display: none;
+}
+#google_translate_element {
+    display: inline;
+    float: right;
+    height: 34px;
+    margin: 7px 0 0;
+    position: relative;
+    width: 202px;
+}
+#google_translate_element .goog-te-gadget-simple {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/google.png") no-repeat scroll 7px -4px transparent;
+    border: medium none;
+    display: inline-block;
+    font-size: 10pt;
+    height: 34px;
+    padding: 5px 0 0;
+    width: 202px;
+}
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: #ffffff !important;
+}
+.goog-te-menu-value {
+    color: #4668a3 !important;
+    padding: 0 0 0 30px !important;
+}
+#google_translate_element .goog-te-gadget-icon {
+    border: medium none;
+    height: 19px;
+    margin-left: 22px;
+    margin-right: -19px;
+    vertical-align: middle;
+    width: 19px;
+}
+#nav, #nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    border: 1px solid;
+    bottom: -67px;
+    float: right;
+    margin-top: 3em;
+    position: absolute;
+    right: 3em;
+}
+#nav li {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/divider.png") no-repeat scroll 0 0 transparent;
+    border-right: 1px solid;
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+}
+#nav a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 9px 12px;
+    text-decoration: none;
+}
+#nav a:hover, #nav .sfhovera {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/topNavHover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#nav a:hover, #nav li:hover > a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/topNavHover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#nav li ul {
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 182px;
+}
+#nav li li ul {
+    left: 100%;
+    top: 0;
+    z-index: 99999;
+}
+body.nojs #nav li:hover > ul {
+    display: block;
+}
+#nav li li {
+    background-color: #648fd8;
+    background-image: none;
+    float: left;
+    width: 100%;
+}
+#nav li li a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    display: block;
+    padding: 5px 8px;
+}
+#nav li li a:hover, #nav li li .sfhovera {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/hover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#nav li li a:hover, #nav li li:hover > a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/hover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#nav ul.dropLeft {
+    right: 0 !important;
+}
+#nav ul ul.dropLeft {
+    left: -100% !important;
+}
+#sideNav {
+    clear: both;
+    width: 202px;
+}
+#adxmSideNav {
+    text-align: left;
+    width: 188px;
+}
+#adxmSideNav ul {
+    width: 170px;
+}
+#adxmSideNav, #adxmSideNav ul {
+    border: 0 none;
+    display: block;
+    list-style-type: none;
+    margin: 6em 0 0;
+    padding: 0;
+}
+#adxmSideNav li {
+    border: 0 none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 202px;
+    z-index: 5;
+}
+#adxmSideNav li:hover {
+    white-space: normal;
+    z-index: 10000;
+}
+#adxmSideNav ul {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: 10;
+}
+#adxmSideNav li:hover > ul {
+    left: 100%;
+    visibility: visible;
+}
+#adxmSideNav::after, #adxmSideNav ul::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+#adxmSideNav, #adxmSideNav ul {
+    border: 1px solid;
+    min-height: 0;
+    padding-right: 1em;
+}
+#adxmSideNav ul {
+    background-image: url("http://iaa.bdsvt.org/images/organizations/cms/blank.gif");
+    margin: -30px 0 0 -20px;
+    padding: 30px 30px 30px 10px;
+}
+#adxmSideNav a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/sideNavActive.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px 15px;
+    text-decoration: none;
+}
+#adxmSideNav a:hover, #adxmSideNav .adxmhoverA {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/sideNavHover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#adxmSideNav a:hover, #adxmSideNav li:hover > a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/sideNavHover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#adxmSideNav li {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/sideNavDivider.png") no-repeat scroll 0 0 transparent;
+    border-bottom: 1px solid;
+    padding: 0;
+}
+#adxmSideNav li:hover > ul {
+    left: 100%;
+    top: 5px;
+}
+#adxmSideNav li li {
+    background-color: #fff;
+}
+#adxmSideNav li li {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+#adxmSideNav li li a {
+    background: none repeat scroll 0 0 #648fd8;
+    color: #fff;
+}
+#adxmSideNav li li a:hover, #adxmSideNav li li .adxmhoverA {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/hover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#adxmSideNav li li a:hover, #adxmSideNav li li:hover > a {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/hover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#adxmSideNav li:hover > ul li ul {
+    left: 90%;
+}
+#quickLinks {
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    position: relative;
+    right: -3px;
+    top: 11px;
+}
+#quickLinks a {
+    color: #fff;
+}
+#login {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/login.png") no-repeat scroll 0 0 transparent;
+    color: #424242;
+    float: left;
+    font-size: 10px;
+    height: 23px;
+    margin-left: 35px;
+    margin-top: 52px;
+    padding: 0 15px 0 0;
+    position: absolute;
+    text-align: left;
+    width: 319px;
+}
+#login input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #424242;
+    height: 12px;
+    margin: 3px 0 0 6px;
+    padding: 1px;
+    width: 120px;
+}
+input#login_btn {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/loginBtn.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 21px;
+    margin: 0;
+    position: absolute;
+    width: 60px;
+}
+#forgotten {
+    bottom: 0;
+    display: none;
+    position: absolute;
+}
+#search {
+    display: inline;
+    float: left;
+    height: 20px;
+    margin: 10px 0 0 15px;
+    padding: 0;
+    width: 187px;
+}
+#searchInput {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 10px;
+    text-align: left;
+    vertical-align: baseline;
+    width: 135px;
+}
+#searchBtn {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/blank.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0;
+    height: 20px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+    width: 20px;
+}
+#weather {
+    background: url("http://iaa.bdsvt.org/images/organizations/cms/burlington/arts/images/weather.png") no-repeat scroll 0 0 transparent;
+    margin: 14px 0 -23px;
+    padding: 3px 0 0 13px;
+    width: 202px;
+}
+#weatherWrap {
+    border: medium none;
+    clear: both;
+    display: inline;
+    float: left;
+    height: 74px;
+    margin: 15px 0 -10px 3px;
+    position: relative;
+    width: 179px;
+}
+#ww_main {
+    position: absolute;
+}
+.ww_forcast, .ww_forecast_d1, .ww_forecast_d2, .ww_forecast_d3, .ww_forecast_d4, .ww_forcast_day {
+    display: none;
+}
+.ww_icon {
+    height: 54px;
+    left: 115px;
+    position: relative;
+    top: 6px;
+    width: 54px;
+}
+.ww_city {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    left: 6px;
+    position: relative;
+    top: -57px;
+    width: 100%;
+}
+.ww_condition {
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    left: 6px;
+    position: relative;
+    top: -10px;
+    width: 100%;
+}
+.ww_temp {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    left: 6px;
+    position: relative;
+    top: -53px;
+}
+a:link, a:visited {
+    color: #116d7a;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #66b5ba;
+    text-decoration: underline;
+}
+body {
+    background: url("http://iaa.bsdvt.org/images/organizations/cms/burlington/arts/images/backgroundTile.png") repeat-x scroll 0 0 #0f5761;
+    margin: auto;
+    padding: 0;
+}
+.orgColor {
+    background-color: #116d7a;
+}
+#personal li li a {
+    background-color: transparent;
+    color: #424242;
+}
+#personal .spaced a {
+    color: #fff;
+}
+#personal .spaced a:hover {
+    color: #fff;
+}
+.wel li a {
+    color: #fff;
+}
+.wel li a:hover {
+    color: #fff;
+}
+#nav a {
+    color: #ecc70e;
+}
+#nav a:hover, #nav .sfhovera {
+    color: #116d7a;
+}
+#nav a:hover, #nav li:hover > a {
+    color: #116d7a;
+}
+#nav li li {
+    background-color: #fbf9be;
+}
+#nav li li a {
+    color: #116d7a;
+}
+#nav li li a:hover, #nav li li .sfhovera {
+    color: #116d7a;
+}
+#nav li li a:hover, #nav li li:hover > a {
+    color: #116d7a;
+}
+#adxmSideNav a {
+    color: #fff;
+}
+#adxmSideNav a:hover, #adxmSideNav .adxmhoverA {
+    background: url("http://iaa.bsdvt.org/images/organizations/cms/burlington/arts/images/sideNavHover.png") no-repeat scroll 0 0 transparent;
+    color: #fff;
+}
+#adxmSideNav a:hover, #adxmSideNav li:hover > a {
+    color: #116d7a;
+}
+#adxmSideNav li li {
+    background-color: #fff;
+}
+#adxmSideNav li li {
+    color: #116d7a;
+}
+#adxmSideNav li li a {
+    background-color: #fbf9be !important;
+    color: #116d7a !important;
+}
+#adxmSideNav li li a:hover, #adxmSideNav li li .adxmhoverA {
+    color: #116d7a;
+}
+#adxmSideNav li li a:hover, #adxmSideNav li li:hover > a {
+    color: #116d7a;
+}
+#quickLinks {
+    color: #fff;
+}
+#quickLinks a {
+    color: #fff;
+}
+.ww_city {
+    color: #fff;
+}
+.ww_condition {
+    color: #fff;
+}
+.ww_temp {
+    color: #fff;
+}
+#liquidWrapper0 {
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-radius: 0.5em;
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.hd {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.dateHeader {
+    font-weight: bold;
+    margin-top: 1em;
+    text-decoration: underline;
+}
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+a[href] {
+}
+.announcementTitle {
+    font-weight: bold;
+    margin-top: 2em;
+}
+.announcealt0 {
+}
+img {
+    padding: 0.25em;
+}
+div {
+    line-height: 1.75em;
+}
+span {
+    line-height: 1.75em;
+}
+.announcementTitle:nth-child(2) {
+    font-size: 10pt;
+    margin-top: 4em;
+}
+#announceAndEvents {
+    color: #333;
+}
+#eventsWrap {
+    float: right;
+    margin: 0 0 12px 12px;
+    width: 29%;
+}
+#eventsWrap #eventsTop {
+    background: none repeat scroll 0 0 #ccc;
+    font-weight: bold;
+    padding: 5px;
+}
+#eventsWrap .dateHeader {
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    padding: 15px 0 0;
+}
+#eventsWrap .indivEvent {
+    padding: 9px 0 0;
+}
+#announceAndEvents {
+    float: left;
+    width: 100%;
+}
+#announceDistHdr, #announceSchooHdr {
+    border-bottom: 1px solid #ddd;
+    clear: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+#districtAnnouncements {
+    margin-bottom: 30px;
+}
+.announceAlt0 div.announcement div.announcementPic img, .announceAlt1 div.announcement div.announcementPic img {
+    float: left;
+    margin: 5px;
+}
+.announcement {
+    margin-top: 25px;
+}
+#announceDistHdr + .announceAlt0 > .announcement {
+    margin-top: 10px;
+}
+.clearAnn {
+    clear: left;
+}
+.announcementTitle {
+    font-weight: bold;
+}
+#viewCalLink {
+    font-weight: bold;
+    margin: 25px 5px 5px;
+}
+#goog-gt-tt {
+    display: none;
+}
+b {
+}
